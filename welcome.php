@@ -12,6 +12,7 @@ if (!isset($_SESSION['user_id'])) {
 <div class="box">
     <h1>Welcome, <?= htmlspecialchars($_SESSION['full_name']) ?></h1>
     <div class="ok">Login successful. You are logged in as <strong><?= htmlspecialchars($_SESSION['username']) ?></strong>.</div>
+    <p><a href="feedback.php">Submit or view feedback</a></p>
     <p><a href="logout.php">Log out</a></p>
 </div>
 </body>
